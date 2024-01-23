@@ -1,6 +1,8 @@
 /**
  * @VAR
  * [ YOU CAN DO EVERYTHING- OLDEST VERSION]
+ * 
+ * globally scoped
  * you can redeclare a variable
  * var name = " dan"
  * var name =" James"
@@ -11,6 +13,7 @@
  * name = " James"
  
  * @LET 
+   * globally and locally scoped
   * You can't redeclare a variable
   
   * let name = " Dan"
@@ -22,7 +25,7 @@
   
   
   * @CONST   ...IT REMAINS CONSTANT
-  
+  * globally and locally scoped
   * You can't reassign or Redeclare  a variable
   
   * const name = " Dan"
@@ -91,6 +94,7 @@ console.log(profit)
 //PARSEINT (10,20) (10.5, 20.5)
 /** int- stands for interger
  * converting strings to  whole numbers
+ * doesn't take floating points/decimal points
  */
 //PARSEFLOAT
 /**
@@ -100,6 +104,11 @@ console.log(profit)
  */
 //NUMBER
 
+// js
+/**
+ * synchronous - javascript runs from top to bottom
+ */
+
 
 let length =  parseFloat(prompt ("length of rectangle"))
 let width = parseFloat(prompt ( "width of rectangle"))
@@ -108,8 +117,8 @@ let area = length * width ;
 let perimeter = (length + width) * 2
 
 
-console.log( typeof length)
-console.log( typeof width)
+console.log( length)
+console.log(  width)
 console.log(`Area :${area}`);
 console.log(`Perimeter :${perimeter}`);
 
