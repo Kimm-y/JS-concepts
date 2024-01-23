@@ -71,10 +71,25 @@ let results = age > 10 ? ' you are greater than 10'
 //  consoleHello()// function call/invocation
 
 //FOR LOOPS
-for (let i = 0 ; i< 10 ; i+=2 )//count value, condition
- { console.log(i)}
+// for ( let i = 10 ; i= number; i++){ console.log(i)}
+
+// MODULUS
+//  let number = 15
+//  console.log ( number % 5)
 
 
+
+
+
+
+//HOMEWORK
+
+
+let number = 15
+
+for ( let i = 15 ; i= number ; i++ ){console.log(i)}
+if( i % 5 && i% 3) { console.log ('divisible by 3 and 5')}
+else ( 'not divisible')
 
 
  
