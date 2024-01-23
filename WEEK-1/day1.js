@@ -88,3 +88,46 @@ console.log(profit)
 
 
 
+//PARSEINT (10,20) (10.5, 20.5)
+/** int- stands for interger
+ * converting strings to  whole numbers
+ */
+//PARSEFLOAT
+/**
+ * converting strings to numbers especially if they have decimals
+ * if a number is recorded as a string parseFloat converts it to a number 
+ * needed for calculations because they need to be numbers 
+ */
+//NUMBER
+
+
+let length =  parseFloat(prompt ("length of rectangle"))
+let width = parseFloat(prompt ( "width of rectangle"))
+
+let area = length * width ;
+let perimeter = (length + width) * 2
+
+
+console.log( typeof length)
+console.log( typeof width)
+console.log(`Area :${area}`);
+console.log(`Perimeter :${perimeter}`);
+
+
+
+
+function checkString( length ){ if(typeof string === "string"){
+    console.log(!isNaN(string));
+  } }
+
+
+  // single line comment
+  /**
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   * 
+   */
