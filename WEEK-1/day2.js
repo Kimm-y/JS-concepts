@@ -83,13 +83,22 @@ let results = age > 10 ? ' you are greater than 10'
 
 
 //HOMEWORK
+let n = parseInt(prompt('Enter a number.'))
+let sum = 0
+
+for ( let i= 1; i <n; i++) 
+{
+    if (i % 3 === 0 || i % 5 === 0) {
+        console.log(i)
+        sum = sum + i;    
+    }
+   
+   
+} console.log(sum)
 
 
-let number = 15
 
-for ( let i = 15 ; i= number ; i++ ){console.log(i)}
-if( i % 5 && i% 3) { console.log ('divisible by 3 and 5')}
-else ( 'not divisible')
+
 
 
  
