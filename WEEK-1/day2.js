@@ -77,6 +77,11 @@ let results = age > 10 ? ' you are greater than 10'
 //  let number = 15
 //  console.log ( number % 5)
 
+/**
+ * parameter- when a function is declared
+ * argument - when a function is called
+ */
+
 
 
 
