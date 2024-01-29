@@ -71,14 +71,31 @@ console.log('length of the mixture list' , mixture.length)
  */
 
 
- function factorial(n){
-    if ( n<= 1){
-        return 1
-    }
+//  function factorial(n){
+//     if ( n<= 1){
+//         return 1
+//     }
 
-    return n * factorial(n-1)
+//     return n * factorial(n-1)
 
- }
+//  }
+
+//FIBONACCI
+
+// function fibanacci2(n) {
+//     if ( n<= 0){
+//         return []
+//     }
+
+//     sequence = [0] * (n + 1)
+//     sequence [ 1] = 1
+
+//     for ( let i = 2; i < n ; i++) {
+//         sequence[i]= sequence [i -1] + sequence [i-2]
+//     }
+
+//     return  sequence[n-1] + sequence [n-2]
+// }
 
 
 let fib = function(i){
@@ -89,21 +106,22 @@ let fib = function(i){
     return fib = (i-1) + ( i-2);
 
 }; console.log(fib(8))
+ }
 
 
-//FIBONACCI
 
-function fibanacci2(n) {
-    if ( n<= 0){
-        return []
+ //RECURSION
+
+ const recursive =()=>{
+    recursive()
+ }
+
+ const factorial = (n)=> {
+    if (n <= 2){
+        return n
     }
 
-    sequence = [0] * (n + 1)
-    sequence [ 1] = 1
+    return n* factorial(n-1)
+ }
 
-    for ( let i = 2; i < n ; i++) {
-        sequence[i]= sequence [i -1] + sequence [i-2]
-    }
-
-    return  sequence[n-1] + sequence [n-2]
-}
+ console.log(factorial(6))
