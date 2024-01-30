@@ -102,8 +102,32 @@ for ( let i= 1; i <n; i++)
 } console.log(sum)
 
 
+function add( ) { //parameters- what the function expects as a value
+    let a = 10
+    let b = 20
+
+    return a + b
+}
+console.log(add())
 
 
+//HOISTING
+// FUNCTION EXPRESSIONS
+
+const add = function (a,b) {
+    return a+b
+}
+console.log(add(10,20))
+
+//ARROW FUNCTION
+const add = (a ,b) =>{
+    return a + b
+}
+console.log(add2(10 , 20))
 
 
  
+//CONCATENATION- TEMPLATE 
+
+// const sentence = `My name is ${ reference something not typed in the sentence}`
+// console.log(sentence)

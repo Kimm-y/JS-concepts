@@ -107,6 +107,13 @@ console.log(profit)
 // js
 /**
  * synchronous - javascript runs from top to bottom
+ * 
+ * setTimeout()=>{
+ * console.log('hello')}, 5000  ...breaks the synchronous nature of jscript
+ * 
+ * setInterval()=>{
+ * console.log('hello')}, 5000  ...breaks the synchronous nature of jscript, runs the command on loop(over and over)
+ * 
  */
 
 

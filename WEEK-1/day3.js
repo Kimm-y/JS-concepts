@@ -40,7 +40,7 @@ console.log('length of the mixture list' , mixture.length)
 
 
 //while loops
- while(condition){ //do something }
+ while(condition){} //do something }
 
 // let i = 0;
 // while (i < 5) {
@@ -98,30 +98,28 @@ console.log('length of the mixture list' , mixture.length)
 // }
 
 
-let fib = function(i){
-    if ( i <= 1){ return i;
-    }
+ let fib = function(i){
+   if ( i <= 1){ return i;
+   }
 
        
     return fib = (i-1) + ( i-2);
-
-}; console.log(fib(8))
- }
+ }; console.log(fib(8))
+  
 
 
 
  //RECURSION
 
- const recursive =()=>{
-    recursive()
- }
 
- const factorial = (n)=> {
-    if (n <= 2){
-        return n
-    }
 
-    return n* factorial(n-1)
- }
+//  const factorial = (n)=> {
+//     if (n <= 2){
+//         return n
+//     }
 
- console.log(factorial(6))
+//     return n* factorial(n-1)
+//  }
+
+//  console.log(factorial(6))
+//  }
