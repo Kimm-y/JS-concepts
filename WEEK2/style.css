@@ -1,0 +1,40 @@
+/* * {
+    margin : 0;
+    padding: 0;
+} */
+
+body{
+    width: 100%;
+    height:100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    width: 100px ;
+    height: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+ /* .click-me-button1 {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+.click-me-button2 {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+}  */
+
+
