@@ -55,6 +55,13 @@
  * It can be a list of any of the primitive data types 
  * [ "Dan" 1,2,3]
  * @OBJECTS = Dictionaries [ key/value pairs]
+ * 
+ * 
+ * 
+ * @NAMING
+ * Pascal case -> ThisIsPascalCase
+ * Camel Case -> thisIsCamelCase    USED IN JAVASCRIPT
+ * 
  */
 
 //OPERATORS

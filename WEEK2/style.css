@@ -21,6 +21,31 @@ button {
     display: none;
 }
 
+.parent{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+ .inner-child {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+ }   
+
 
 
 
