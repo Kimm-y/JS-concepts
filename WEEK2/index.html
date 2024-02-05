@@ -74,9 +74,36 @@
     </ul> -->
 
 
-    <div class="parent"></div>
+    <!-- <div class="parent"></div> -->
+
+    <div class="color-changer"></div>
+    <div class="game-changer"></div>
+    <div class=" heading"><p >LET'S PLAY</p></div>
+    <div class="heading2"><p >ROCK , PAPER , SCISSORS</p></div>
+     <div class="emoji">✊  ✋ ✌️</div>
+    <div id="choices">
+      <button onclick="playGame('rock')">rock</button>
+      <button onclick="playGame('paper')">paper</button>
+      <button onclick="playGame('scissors')">scissors</button>
+    </div>
+
+    <button>RESET</button>
+  
+  
     
 
-    <script src="./day4.js"></script>
+    <div id="playersDisplay">PLAYER :</div>
+    <div id="computerDisplay">COMPUTER :</div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay"> Player Score: 
+      <span id="PlayerScoreDisplay">0</span>
+    </div>
+    <div class="scoreDisplay"> Computer Score :
+      <span id="ComputerScoreDisplay">0</span>
+    </div>
+
+
+    <script src="./weekend.js"></script>
   </body>
 </html>

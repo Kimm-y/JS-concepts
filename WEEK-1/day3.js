@@ -13,6 +13,11 @@
 console.log( mixture[2])
 console.log('length of the mixture list' , mixture.length)
 
+@ACCESSING - an array
+
+const names = [ Dan , James, Peter]
+console.log(names[0])
+
 
  */
 
