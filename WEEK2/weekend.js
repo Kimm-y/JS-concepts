@@ -14,12 +14,16 @@ function playGame(playersChoice){
     const computerChoice =objects[Math.floor(Math.random()*3)];
     let result = "";
 
+
+
 if (playersChoice=== computerChoice){
     result= "DRAW"
+    score=0 
 } else {
     switch (playersChoice){
         case "rock":
             result = (computerChoice=== "scissors") ? " YOU WIN" : " YOU LOSE"
+
            break;
 
            case "scissors":

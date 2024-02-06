@@ -14,6 +14,13 @@
     font-weight: bold;
     }
 
+    .displayContainer{
+        background-color: #E4DBB1;
+        width: 1000px;
+        height: 200px;
+        display: flex;
+
+    }
     .heading{
         margin-top: 10px;
         font-size: 2.5rem;
